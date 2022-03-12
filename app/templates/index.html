@@ -1,0 +1,123 @@
+{% extends 'base.html' %} {% block content %}
+
+<body style="background: #c522a2;">
+    <div class="container">
+
+        <div class="px-4 py-5 my-5 text-center">
+            <h1 class="display-5 fw-bold">Pitches</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">You only have</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-primary btn-sm text-danger gap-3"><a href="{{url_for('auth.register')}}" style="text-decoration: none;color: white;font-weight: 700;">Sign Up</a></button>
+                    <button type="button" class="btn btn-primary btn-sm "><a href="{{url_for('main.pitches')}}" style="text-decoration: none;color: white;font-weight: 700;">View Pitches</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <div class="container" style="height: 40vh;">
+                        <div class="carousel-caption text-start">
+                            <h1>Sign Up Today.</h1>
+                            <p>Sign up and make a pitch in one minute. Make Super Good impressions.</p>
+                            <p><a href="{{url_for('auth.register')}}" class="btn btn-outline-primary mt-4">Sign Up</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="" alt="">
+
+                    <div class="container mt-2" style="height: 40vh; ">
+                        <div class="carousel-caption p-5 m-5">
+                            <h1>Login to your account.</h1>
+                            <p>Login to your account to add a pitch and also view pitches.</p>
+                            <p><a href="{{url_for('auth.login')}}" class="btn btn-outline-primary">Sign in</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+
+
+                    <div class="container" style="height: 40vh;">
+                        <div class="carousel-caption text-end p-5 m-5">
+                            <h1>Pitches.</h1>
+                            <p>Here you will find all pitches and all are in order of category.</p>
+                            <p><a href="{{url_for('main.addpitches')}}" class="btn btn-outline-primary">Create a pitch</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+        </div>
+
+        <!-- Services -->
+
+
+
+        <div class="container mt-5 pt-3 text-center">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="../static/images/pexels-pavel-danilyuk-8761335.jpg" class="card-img-top" alt="..." height="300px" width="100px" style="border-radius: 60%;">
+
+                    <h2>Assist you in honing your communication abilities</h2>
+                    <p>Because you'll be able to see other people's proposals, this will be an excellent opportunity for you to learn from them.</p>
+                    <p> <a href="{{url_for('main.pitches')}}" class="btn btn-outline-primary">View Pitches</a></p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="../static/images/pexels-rodnae-productions-7413913.jpg" class="card-img-top" alt="..." height="300px" width="100px" style="border-radius: 60%;">
+
+                    <h2>Assist you in bringing your ideas to the attention of the public.</h2>
+                    <p>Make your own pitches and post them to see how they are received by others. The more likes you get, the better your pitch is.</p>
+                    <p> <a href="{{url_for('main.addpitches')}}" class="btn btn-outline-primary">Create a pitch</a></p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="../static/images/pexels-rodnae-productions-7414106.jpg" class="card-img-top" alt="..." height="300px" width="100px" style="border-radius: 60%;">
+
+                    <h2>Connect You with Others</h2>
+                    <p>Create an account and communicate with other users. This will be a fantastic opportunity to learn from others.</p>
+                    <p><a href="{{url_for('auth.login')}}" class="btn btn-outline-primary">Sign in</a></p>
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.container -->
+
+
+    </div>
+
+    <!-- footer -->
+
+    <div class="container-fluid" style="height: 30vh;background: rgb(78, 233, 78);color: white;">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">About</a></li>
+            </ul>
+            <p class="text-center text-white">&copy; 2021 PITCHING, Inc</p>
+        </footer>
+    </div>
+</body>
+{% endblock %}
