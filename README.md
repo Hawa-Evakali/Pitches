@@ -56,11 +56,11 @@ The users will submit their one minute pitches and other users will vote on them
 ## Technologies used
 * Python3
 * Flask
-* Javascript
-* Particle Js
-* Html5
-* Css3
-* Bootstrap4
+* Jat
+* PaJs
+* Ht
+* Cs
+* Bo4
 
 # Prerequisites
 
