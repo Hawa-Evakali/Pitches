@@ -37,7 +37,7 @@ The users will submit their one minute pitches and other users will vote on them
 
 ## User Story
 
-- Users can see the pitches other people have posted.
+-  can see the pitches other people have posted.
 
 - Users can vote on the pitch they liked and give it a downvote or upvote.
 
