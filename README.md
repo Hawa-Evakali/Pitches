@@ -37,13 +37,13 @@ The users will submit their one minute pitches and other users will vote on them
 
 ## User Story
 
--  can see the pitches other people have posted.
+- Users can see the pitches other people have posted.
 
 - Users can vote on the pitch they liked and give it a downvote or upvote.
 
 - Users can sign in to leave a comment.
 
-- Users can register on the website.
+- 
 
 - Users can view the pitches they have created in their profile page..
 
