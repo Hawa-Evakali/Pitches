@@ -83,7 +83,7 @@ The following command installs all the application requirements
 
 ## Setup
 Run 
-https://github.com/RobbinGIT/ThePitches.git
+https://github.com/Hawa-Evakali/Pitches.git
 
 or download the zip file from github.
 
@@ -107,7 +107,7 @@ After extracting the files,
  > ``python3 manage.py test.``
 
 ## Contacts 
-robbingithimbo@gmail.com
+ailabeyqute@gmail.com
 
 ## Live link 
 **You can view the project through this link**
