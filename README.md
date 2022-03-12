@@ -43,7 +43,7 @@ The users will submit their one minute pitches and other users will vote on them
 
 - Users can sign in to leave a comment.
 
-- 
+- Users can register on the website.
 
 - Users can view the pitches they have created in their profile page..
 
@@ -51,7 +51,7 @@ The users will submit their one minute pitches and other users will vote on them
 
 - Users can submit a pitch in any category. 
 
-- Users can view the different categories. 
+- 
 
 ## Technologies used
 * Python3
