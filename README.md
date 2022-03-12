@@ -45,7 +45,7 @@ The users will submit their one minute pitches and other users will vote on them
 
 - Users can register on the website.
 
-- 
+- Users can view the pitches they have created in their profile page..
 
 - Users can comment on the different pitches and leave feedback. 
 
